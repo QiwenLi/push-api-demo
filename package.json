@@ -1,0 +1,30 @@
+{
+  "name": "push-api-demo",
+  "version": "1.0.0",
+  "description": "An attempt to create a simple working example for the Push API.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisdavidmills/push-api-demo.git"
+  },
+  "keywords": [
+    "web push",
+    "push api",
+    "demo"
+  ],
+  "author": "Chris David Mills",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/chrisdavidmills/push-api-demo/issues"
+  },
+  "homepage": "https://github.com/chrisdavidmills/push-api-demo",
+  "dependencies": {
+    "express": "^4.13.4",
+    "serve-static": "^1.10.2",
+    "web-push": "^1.0.2"
+  }
+}
